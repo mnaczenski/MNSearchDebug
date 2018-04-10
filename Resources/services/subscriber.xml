@@ -1,0 +1,13 @@
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="m_n_search_debug.subscriber.backend" class="MNSearchDebug\Subscriber\Backend">
+            <argument>%m_n_search_debug.plugin_dir%</argument>
+            <argument type="service" id="front"/>
+            <argument type="service" id="models"/>
+            <tag name="shopware.event_subscriber"/>
+        </service>
+    </services>
+</container>
