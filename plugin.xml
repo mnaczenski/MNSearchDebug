@@ -5,10 +5,10 @@
     <label lang="de">MNSearchDebug</label>
     <label lang="en">MNSearchDebug</label>
 
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <copyright>(c) by shopware AG Moritz Naczenski</copyright>
     <license>proprietary</license>
     <link>http://store.shopware.com</link>
     <author>shopware AG</author>
-    <compatibility minVersion="5.4.0"/>
+    <compatibility minVersion="5.2.0"/>
 </plugin>
