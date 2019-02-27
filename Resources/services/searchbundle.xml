@@ -6,7 +6,7 @@
         <service id="swag_s.bundle_search.debug_search_term_condition_handler"
                  class="MNSearchDebug\Bundle\SearchBundleDBAL\ConditionHandler\DebugSearchTermConditionHandler">
             <argument type="service" id="m_n_search_debug.debug_search_query_builder_dbal"/>
-            <tag name="condition_handler_dbal"/>
+            <tag name="condition_handler_dbal" priority="99" />
         </service>
     </services>
 </container>
